@@ -18,7 +18,8 @@ longtext = ' '.join(cut_list)
 
 3. 
 ```python
-tfidf_word = jieba.analyse.extract_tags(long_text, topK=20, withWeight=False, allowPOS=('n')) #get only noun```
+tfidf_word = jieba.analyse.extract_tags(long_text, topK=20, withWeight=False, allowPOS=('n')) #get only noun
+```
 
 4. 
 ```python
