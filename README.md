@@ -12,9 +12,9 @@ sentence_list = data_df['col_1'].tolist()
 ```python
 cut_list = []
 for sentence in sentence_list():
-cut_word = jieba.lcut(sentence):
-for word in cut_word:
-    cut_list.append(word)
+    cut_word = jieba.lcut(sentence):
+    for word in cut_word:
+        cut_list.append(word)
 longtext = ' '.join(cut_list)
 ```
 
